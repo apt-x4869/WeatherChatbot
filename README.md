@@ -39,5 +39,4 @@ different channels. To do so execute the following steps:
     ```
     rasa x
     ```
-
-# WeatherChatbot
+This ChatBot was created by #Aman Pasi
