@@ -1,0 +1,27 @@
+2019-12-29 12:04:58,052 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.7/dist-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.7/dist-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-12-29 12:04:58,084 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.7/dist-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.7/dist-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-12-29 12:05:04,192 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/hello'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.7/dist-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.7/dist-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /hello not found
